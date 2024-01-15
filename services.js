@@ -23,7 +23,7 @@ router.get('/sensor', read.readService );
 
 
 cron.schedule("*/10 * * * *", async function() {
-og.logService();
+log.logService();
 });
 
 
