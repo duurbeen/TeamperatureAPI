@@ -1,8 +1,8 @@
 
 const config = {
     user :'sa',
-    password :'Asdf#1234',
-    server:'10.38.27.228',
+    password :'sa',
+    server:'192.168.0.228',
     database:'MACHINEDATA',
     pool:{
         max:10, min:0, idleTimeoutMillis: 30000
@@ -19,9 +19,9 @@ const config = {
 }
 
 const configERP_MIS = {
-    user :'Arif',
-    password :'Illusion@Arif',
-    server:'10.38.17.16',
+    user :'sa',
+    password :'sa',
+    server:'192.168.0.229',
     database:'ERP_MIS',
     pool:{
         max:10, min:0, idleTimeoutMillis: 30000
