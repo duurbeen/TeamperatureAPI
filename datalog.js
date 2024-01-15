@@ -1,7 +1,7 @@
 
 const BME280 = require('bme280-sensor');
 const cron = require("node-cron");
-const dbcon = require('./controller/dboperations')
+const dbcon = require('./dboperations')
 const sql = require('mssql');
 
 
