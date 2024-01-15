@@ -1,5 +1,5 @@
 
-var dbc = require('../connString/dbconfig');
+var dbc = require('./dbconfig');
 const sql = require('mssql');
 
         async function getconnection() {
