@@ -35,7 +35,7 @@ const sql = require('mssql');
                     .input('vcDeviceID', sql.NVarChar(10), Id)
                     .input('vcTemp', sql.NVarChar(10), Temp)
                     
-                    .execute('ERP_MIS.dbo.sprAFBLFactoryTemperatureDataInsert');
+                    .execute('ERP_MIS.dbo.sprTemperatureDataInsert');
                 //return insertProduct.recordsets;
             }
             catch (err) {
